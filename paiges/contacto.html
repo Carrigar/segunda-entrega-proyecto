@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+   <!-- Fila del logo + nav -->
+   <div id="grid">
+    <header>
+        <img src="../assets/img/carrigar_logo.png" alt="logo" height="25%" width="25%">
+            <nav>
+                <div class="contenedor-header-menu">
+                    <ul>
+                        <li> <a href="../index.html">Inicio</a></li>
+                        <li> <a href="./blog.html">Blog</a></li>
+                        <li> <a href="./servicios.html">Servicios</a></li>
+                        <li> <a href="./contacto.html">Contacto</a></li>
+                        <li> <a href="./politica_de_privacidad.html">Política de privacidad</a></li>
+                    </ul>
+                </div>
+            </nav>  
+        </header>
+        <!-- cierre de fila de logo + nav -->
+        <!-- información de página -->
+        <!-- cierre info pag -->
+        <!-- inicio de formulario -->
+        <section>
+            <h1>Contáctanos</h1>
+            <form action="#">
+                <div>
+                    <div>
+                        <input type="text" placeholder="Nombre" required>
+                        <input type="text" placeholder="Apellido" required>
+                    </div>  
+                    <div>
+                        <strong>Elige una opcion</strong><br>
+                        Eres:<br>
+                        <input type="radio" name="sexo" value="hombre" required>
+                        <label for="hombre">Hombre</label>
+                        <input type="radio" name="sexo" value="mujer" required>
+                        <label for="mujer">Mujer</label>
+                        <input type="radio" name="sexo" value="otro" required>
+                        <label for="otro">Otro</label>
+                    </div>       
+                    <div>
+                        <label for="email"><strong>Correo electrónico:</strong></label>
+                        <input type="email" placeholder="correo@ejemplo.com" required>
+                    </div>
+                    <div>
+                        <strong>Cumpleaños:</strong>
+                        <select name="mes" required>
+                            <option value="enero">Enero</option>
+                            <option value="febrero">Febrero</option>
+                            <option value="marzo">Marzo</option>
+                            <option value="abril">Abril</option>
+                            <option value="mayo">Mayo</option>
+                        </select>
+                        <select name="dia" required>
+                            <option value="01">01</option>
+                            <option value="02">02</option>
+                            <option value="03">03</option>
+                            <option value="04">04</option>
+                            <option value="05">05</option>
+                        </select>
+                        <select name="año" required>
+                            <option value="2001">2001</option>
+                            <option value="2002">2002</option>
+                            <option value="2003">2003</option>
+                            <option value="2004">2004</option>
+                            <option value="2005">2005</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="acepta">Recibe las últimas noticias sobre nosotros!</label>
+                        <input type="checkbox" name="acepta" value="1" required>
+                    </div>
+                    <div>
+                        <p>Escríbenos tus dudas y/o comentarios:</p>
+                        <textarea name="dudas" id="dudas" cols="50" rows="10"></textarea>
+                    </div>  
+                    <div>
+                        <input type="reset" value="Limpiar Formulario">
+                        <input type="submit" value="Enviar Datos">
+                    </div>
+                </div>
+            </form>
+        </section>
+        <!-- cierre del formulario -->  
+        <aside>
+            <img src="../assets/img/publi4.jpg" alt="imagen publicitaria">
+        </aside>
+        <!-- inicio de footer -->
+        <footer>
+            <div>
+                <ul id="menu-footer">
+                    <li><a href="" target="_blank">footer</a></li>
+                    <li><a href="" target="_blank">footer</a></li>
+                    <li><a href="" target="_blank">footer</a></li>
+                    <li><a href="" target="_blank">footer</a></li>
+                </ul>
+            </div>
+            <div id="linea-vertical"></div>
+            <div id="imgs-footer">
+                <img src="../assets/img/email_logo.png" alt="logo de email">
+                <img id="fb-logo" src="../assets/img/fb_logo.png" alt="logo de facebook">
+                <img src="../assets/img/insta_logo.png" alt="logo de instagram">
+                <img src="../assets/img/yt_logo.png" alt="logo de youtube">
+            </div>
+            </div>    
+        </footer>
+    </div>
+</body>
+</html>
